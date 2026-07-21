@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FootballDrafts</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="preference">Preference</string>
+    <string name="lineup">Lineup</string>
+    <string name="google_maps_key">AIzaSyDF6Z5QO3t8NPc_4ZcckR80433wcZldPFI</string>
+    <string name="match_date">Match Date</string>
+    <string name="match_time">Match Time</string>
+    <string name="match_location_tap_to_search">Match Location (Tap to search)</string>
+    <string name="create_match">Create Match</string>
+    <string name="create_new_match">Create New Match</string>
+    <string name="search_for_matches">Search for Matches</string>
+    <string name="Request">Send Request</string>
+    <string name="search_matches">Search Matches</string>
+</resources>

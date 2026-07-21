@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:icon="@drawable/home_img" android:id="@+id/homeicon" android:title="Home">
+
+    </item>
+
+    <item android:icon="@drawable/lineup_img" android:id="@+id/lineupicon" android:title="Lineup">
+
+    </item>
+    <item android:icon="@drawable/creatematch_img" android:id="@+id/creatematchicon" android:title="Create Match">
+
+    </item>
+    <item android:icon="@drawable/requests_img" android:id="@+id/requesticon" android:title="Requests">
+
+    </item>
+
+</menu>

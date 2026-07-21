@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewRequestingUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Player XYZ wants to play!"
+            android:textAppearance="?attr/textAppearanceSubtitle1"/>
+
+        <TextView
+            android:id="@+id/textViewRequestMatchInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="For match on [Date] at [Location]"
+            android:layout_marginTop="4dp"
+            android:textAppearance="?attr/textAppearanceBody2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/buttonDeclineRequest"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Decline"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/buttonAcceptRequest"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:textColor="@android:color/holo_green_dark"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
